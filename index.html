@@ -26,14 +26,24 @@
 
         
         <br /><br />
-        
-        <p style="text-align: justify;">The summer of 2018 was extra special for me. Getting selected to GSoC for the first time and the organization being <a href="https://fossasia.org/" target="_blank">FOSSASIA</a> made the opportunity much more valuable. During the period I was working on an open source hardware platform which enables school children, teachers, undergraduates and even electronic hobbyists to overcome the issue of having costly electronic measurement and debugging tools in their scientific experiments and projects.</p>
-        
-        <p style="text-align: justify;">Pocket Science Lab by FOSSASIA integrates commonly used electronic equipments such as Oscilloscope, Signal Generator, Logic Analyzer in a lab and even a connectivity to common I<sup>2</sup>C sensors into a pocket sized device using a PIC micro-controller. The functionalities can be accessed using a dektop application or an Android application.</p>
 
-        <p style="text-align: justify;">The project consisted of three repositories which I had to work on. <a href="https://github.com/fossasia/pslab-android" target="_blank">PSLab Android</a>, <a href="https://github.com/fossasia/pslab-hardware" target="_blank">PSLab Hardware</a> and <a href="https://github.com/fossasia/pslab-firmware" target="_blank">PSLab Firmware</a>. The major outcome of the project was to develop an Android application with the similar functionalities as the <a href="https://github.com/fossasia/pslab-desktop-apps" target="_blank">PSLab Desktop</a> application and improve the existing PSLab hardware and firmware. During the first month, I was giving priority to enhance the PSLab firmware using MPLab IDE used to program PIC micro-controllers and adding features to the PSLab hardware schematics using KiCAD; an open source ECAD software tool. In the latter two months, I was working on developing the Android application with fellow developers. At the end of GSoC we were able to deliver a functional Android application.</p>
+        <p style="text-align: justify;">The summer of 2018 was very special for me as I got selected for GSoC for the first time and that too in the first attempt. I got an opportunity to work with <a href="https://fossasia.org/" target="_blank">FOSSASIA</a> organization. My main work was focused on the <a href="https://pslab.io" target="_blank">PSLab</a> project of FOSSASIA organization which is an open Source Android as well as desktop app which helps students, teachers, and researchers in the stream of science to carry out scientific experiments very easily and with a very less number of tools.</p>
+        
+        <p style="text-align: justify;">The project was targeted to increase the UI of the PSLab app along with implementing all the major instruments and sensors in Android app available in the hardware device so that all the major scientific instruments can be provided at once to the users so that they don't have to use any extra device as a support for PSLab's device.</p>
 
-        <p style="text-align: justify;">I got an amazing chance to work with a great development team during the summer; Akarshan, Asitava, Jithin and Vivek. The mentors from FOSSASIA were really interactive and responsive. It was the combined effort which made GSoC '18 a great unforgettable summer with lots of experience!</p>
+        <p style="text-align: justify;">PSLab device contains all the major scientific instruments and sensors such as 
+          4 channel Oscilloscope,
+          4 channel Logic Analyzer,
+          Multimeter,
+          Wave Generator,
+          Magnetic Compass,
+          Lux Meter,
+          and many more on just a single PIC MicroController Board. The device also contains an I2C communication channel for communicating with external sensors.
+          </p>
+
+        <p style="text-align: justify;">My main tasks were related to the repositories <a href="https://github.com/fossasia/pslab-android" target="_blank">PSLab Android</a> and <a href="https://github.com/fossasia/pslab-experiments" target="_blank">PSLab Experiments</a> for developing the Android application and making documentations for varoius experiments respectively. The first month of the coding program was mainly focused on understanding the Android repository and making documentations of new experiments and also transfer old experiments from Android to Experiments repo. It was the second month were the intense coding began and in that month, I developed most of the Android app. The third month was given for developing more sensors in the app and also to add new functionalities in the app.</p>
+
+        <p style="text-align: justify;">It was a great summer working with my fellow developers to make an app which helps the community to conduct there work much more easily and efficiently. The app was an output of the combined efforts made by all of us during this summer. </p>
 
         <br />
       </div>
@@ -90,7 +100,7 @@
       <div class="row">
         <div class="col-md-4">
           <h2>Screencast</h2>
-          <p style="text-align: justify;">Screencast for PSLab</p>
+          <p style="text-align: justify;">Screencasts on PSLab Android app!</p>
           <p><a class="btn btn-secondary" href="https://drive.google.com/open?id=1wnwlFROWUy5BgyIF6IJEWyip4TPUte-5" target="_blank" role="button">Screencast 1
            &raquo;</a></p>
           <p><a class="btn btn-secondary" href="https://drive.google.com/open?id=1gW-R8Yy3SjIpjzHefJRpoO_QXra5-6mV" target="_blank" role="button">Screencast 2
@@ -148,20 +158,9 @@
       <div class="jumbotron">
         <div class="container">
           <h2>Work that is left...</h2>
-          <p style="text-align: justify;">The application supports 71 experiments using the PSLab device. There are a few experiments yet to be implemented related to <i>Add-On Modules</i> and <i>Physics Experiments</i>. Also users can be able to design an experiment on their own using the <i>Design Experiments</i> section and that section requires development.</p>
+          <p style="text-align: justify;">Currently, almost all the instruments are working except Wave Generator which isn't able to produce PWM waves. Also, some the I2C communication related issues still needed to be looked upon. Other than this, the documentation of experiments weren't accurate and thus they also needed to be modified. Thus, there's still some work left...</p>
         </div>
       </div>
-
-      <hr>
-      
-           <!-- Follow Me -->
-        <div class="btn-group btn-group-justified">
-          <a href="https://github.com/harsh-2711" class="btn github" target="_blank"><b>Github</b></a>
-          <a href="https://www.facebook.com/profile.php?id=100003775165712 facebook" class="btn btn-primary" target="_blank"><b>Facebook</b></a>
-          <a href="https://twitter.com/harsh_2711" class="btn btn-info twitter" target="_blank"><b>Twitter</b></a>
-          <a href="https://www.linkedin.com/in/harsh-patel-7472a8a1/" class="btn btn-success linkedin" target="_blank"><b>Linked In</b></a>
-          <a href="https://gitter.im/fossasia/pslab" class="btn btn-warning gitter" target="_blank"><b>Gitter</b></a>
-        </div>
 
     </div>
 
@@ -179,7 +178,6 @@
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Prior to GSoC</span>
-            <span class="time-wrapper"><span class="time">May 2018</span></span>
           </div>
           <div class="desc">
             <p style="text-align: justify;">I introduced myself to the community and got to know fellow developers. Some of the software tools such as KiCAD was new to me. I spent my time to install them and got to know how to work with these tools and brushed up my knowledge on the supportive programming languages and tools.</p>
@@ -195,7 +193,6 @@
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Week 1 ~ 2</span>
-            <span class="time-wrapper"><span class="time">Jun 2018</span></span>
           </div>
           <div class="desc">
             <p style="text-align: justify;">Continued with creating seperate modules in the PSLab firmware. In the hardware schematics, implemented an enhanced oscillator and finalized the voltage regulator. The space on the pcb layout was optimized so that new components can be placed easily. In the Android repository, began working on porting functionalities in the python repository and tested slider bars to be implemented in the relevant UIs.</p>
@@ -209,7 +206,6 @@
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Week 3 ~ 4</span>
-            <span class="time-wrapper"><span class="time">Jun 2018</span></span>
           </div>
           <div class="desc">
             <p style="text-align: justify;">I received myself a PSLab device. So I went on fixing issues related to UI and functionalities in the PSLab Android application along with the ones occured in relevance to Butterknife. Also I continued with the work I was doing to making modules in the PSLab firmware.</p>
@@ -222,7 +218,6 @@
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">First Evaluation</span>
-            <span class="time-wrapper"><span class="time">Jun 2018</span></span>
           </div>
         </div>
       </li>
@@ -233,7 +228,6 @@
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Week 5 ~ 6</span>
-            <span class="time-wrapper"><span class="time">Jul 2018</span></span>
           </div>
           <div class="desc">
             <p style="text-align: justify;">I've continued with the final steps in creating modules in firmware and began moving onto the Android app, giving it more proirity. I fixed device compatibility issues along with issues related to UI and functionalities in the PSLab Android application.</p>
@@ -247,7 +241,6 @@
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Week 7 ~ 8</span>
-            <span class="time-wrapper"><span class="time">Jul 2018</span></span>
           </div>
           <div class="desc">
             <p style="text-align: justify;">It was the continuation of work done related to functionalities and UI implementations in Logic Analyzer, Control and Saved Experiments activites and the existing issues. Makerfairer Singapore was held during this period and I participated in it to present PSLab to young developers and innovators thanks to FOSSASIA team!</p>
@@ -260,7 +253,6 @@
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Second Evaluation</span>
-            <span class="time-wrapper"><span class="time">Jun 2018</span></span>
           </div>
         </div>
       </li>
@@ -271,7 +263,6 @@
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Week 9 ~ 10</span>
-            <span class="time-wrapper"><span class="time">Aug 2018</span></span>
           </div>
           <div class="desc">
             <p style="text-align: justify;">Began implementing experiments using the Android application and completed experiments related to BJTs and FETs and started up working on School Level experiments while working on exisiting issues in both functionalities and UIs.</p>
@@ -285,7 +276,6 @@
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Week 11 ~ 12</span>
-            <span class="time-wrapper"><span class="time">Aug 2018</span></span>
           </div>
           <div class="desc">
             <p style="text-align: justify;">Started working on experiments related to Miscellaneous Experiments and continue with School Level experiments. In the meantime minor issues were addressed. An alpha version of the Android application was published in Google Play Store.</p>
@@ -299,7 +289,6 @@
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Final Evaluation</span>
-            <span class="time-wrapper"><span class="time">Sep 2018</span></span>
           </div>
         </div>
       </li>
@@ -323,6 +312,19 @@
     <!-- Copyright -->
     <br />
     <div class="container">
+
+           <!-- Follow Me -->
+        <div class="heading">Find me on </div>
+        <div class="btn-group btn-group-justified">
+          <a href="https://github.com/harsh-2711" class="btn github" target="_blank"><b>Github</b></a>
+          <a href="https://www.facebook.com/profile.php?id=100003775165712 facebook" class="btn btn-primary" target="_blank"><b>Facebook</b></a>
+          <a href="https://twitter.com/harsh_2711" class="btn btn-info twitter" target="_blank"><b>Twitter</b></a>
+          <a href="https://www.linkedin.com/in/harsh-patel-7472a8a1/" class="btn btn-success linkedin" target="_blank"><b>Linked In</b></a>
+          <a href="https://gitter.im/fossasia/pslab" class="btn btn-warning gitter" target="_blank"><b>Gitter</b></a>
+        </div>
+
+      <hr>
+      
       <footer>
         <center>
           <p>&copy; The FOSSASIA, Google and other product names, logos, and brands are property of their respective owners. All company, product and service names used in this proposal are for identification purposes only.</p>
