@@ -1,6 +1,6 @@
 # Harsh-GSoC18
 
-This website is a submission of **GSoC 2018 Final Evaluation Report**
+This website is submitted as **GSoC 2018 Final Evaluation Report**
 
 ### Technologies Used
 
